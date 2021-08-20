@@ -7,6 +7,7 @@
 
 Commonly Used Types:
 Quick.WebSocket.WebSocketClientStream</Description>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

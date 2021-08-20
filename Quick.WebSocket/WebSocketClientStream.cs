@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Quick.WebSocket
 {
-    internal class WebSocketClientStream : Stream
+    public class WebSocketClientStream : Stream
     {
         public override bool CanRead => true;
         public override bool CanSeek => throw new NotImplementedException();
