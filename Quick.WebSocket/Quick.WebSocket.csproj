@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45;net5.0</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Some WebSocket Utils.
+
+Commonly Used Types:
+Quick.WebSocket.WebSocketClientStream</Description>
   </PropertyGroup>
 
 </Project>
