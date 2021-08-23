@@ -10,12 +10,11 @@ namespace Quick.WebSocket
     public class WebSocketClientStream : Stream
     {
         public override bool CanRead => true;
-        public override bool CanSeek => throw new NotImplementedException();
+        public override bool CanSeek => false;
         public override bool CanWrite => true;
         public override long Length => throw new NotImplementedException();
 
         private System.Net.WebSockets.ClientWebSocket client;
-        private byte[] buffer = new byte[1024];
         private string closeReason = null;
 
         public override long Position { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
